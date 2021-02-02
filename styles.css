@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    background-color: black;
+}
+
+h1 {
+    font-size: 5rem;
+    color: white;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 yellow;
+}
+
+footer {
+    color: #DBEDF3;
+    font-family: sans-serif;
+}
+
+
+.j {
+    background-image: url(./images/Open.jpg);
+}
+
+.k {
+    background-image: url(./images/Closed.jpg);
+}
+
+.l {
+    background-image: url(./images/Buzz.jpg);
+}
+
+.set {
+    margin: 10% auto;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.red {
+    color: red;
+}
+
+.berimbau {
+    outline: none;
+    border: 10px solid blue;
+    font-size: 3rem;
+    font-family: 'Arvo', cursive;
+    line-height: 9;
+    font-weight: 300;
+    color: green;
+    text-shadow: 3px 0 white;
+    border-radius: 15px;
+    disply: inline-block;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 30px;
+    background-color: white;
+}
